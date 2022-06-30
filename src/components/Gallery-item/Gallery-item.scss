@@ -1,0 +1,22 @@
+.col {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: relative;
+}
+
+.img-fluid {
+	max-height: 350px;
+	max-width: 300px;
+}
+
+.img-fluid-with-padding {
+	padding: 20px;
+}
+
+.door-name {
+	position: absolute;
+	font-size: 13px;
+	left: 30%;
+	bottom: 20%;
+}

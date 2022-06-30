@@ -1,0 +1,14 @@
+.find-a-dealer-wrapper {
+	padding: 70px 10px;
+	border-bottom: 9px solid white;
+
+	.find-a-dealer-wrapper__text-wrapper {
+		width: 53%;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	.find-a-dealer-wrapper__text-wrapper {
+		width: 63% !important;
+	}
+}

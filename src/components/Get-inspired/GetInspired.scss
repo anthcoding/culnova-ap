@@ -1,0 +1,29 @@
+	.get-inspired-wrapper {
+		background-image: url('../../../public/assets/home/4zYz0.jpeg');
+		background-position: center;
+		background-repeat: no-repeat;
+		background-size: cover;
+		width: 100%;
+		height: 600px;
+
+		h1 {
+			font-size: 60px;
+			color: #fff;
+		}
+
+		p {
+			color: #fff;
+			font-size: 23px;
+		}
+
+		.get-inspired-wrapper__button {
+			border-radius: 10px;
+			background-color: #222222;
+			padding: 20px;
+			text-align: center;
+
+			.get-inspired-wrapper__button__text {
+				color: #ffff;
+			}
+		}
+	}

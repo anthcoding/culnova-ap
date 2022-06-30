@@ -1,0 +1,15 @@
+.footer-headers {
+	font-weight: 700;
+	color: white;
+}
+
+.footer-media-container {
+	display: flex;
+	justify-content: center;
+	align-items: initial;
+
+	.footer-media-icons {
+		font-size: 25px;
+		margin: 10px;
+	}
+}

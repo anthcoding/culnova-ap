@@ -1,0 +1,35 @@
+.about-item {
+	color: white;
+	padding: 27px;
+	font-size: 16px;
+	border: none;
+	height: 62px;
+
+	&:hover,
+	&:active,
+	&:visited {
+		color: white;
+	}
+}
+
+.social-media-icons-wrapper {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100px;
+	margin-left: 7%;
+
+	.social-icons-navbar {
+		margin: 15px 20px 0;
+		font-size: 25px;
+	}
+}
+
+
+@media screen and (max-width: 992px) {
+	.social-media-icons-wrapper {
+		margin-left: 0;
+
+	}
+
+}
